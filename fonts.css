@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "eroticascriptctwo";
+    src:url("..//fonts/eroticascriptctwo.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "MazzardM";
+    src:url("./fonts/MazzardM-LightItalic.ttf");
+    font-style: italic;
+}
+
+/* @font-face {
+    font-family: "MazzardM";
+    src:url("..//fonts/MazzardM-MediumItalic.ttf");
+    font-style: medium;
+    font-weight: medium;
+} */
+

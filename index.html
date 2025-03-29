@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVV</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="nav-btn" id="monument_btn" data-screen="monument">(01) ПАМЯТНИК</button>
+            <button class="nav-btn" id="flowers_btn" data-screen="flowers">(02) ЦВЕТЫ</button>
+            <!-- <button class="nav-btn" id="coffin_btn" data-screen="coffin">(03) ГРОБ</button> -->
+            <button class="nav-btn" id="testament_btn" data-screen="testament">(03) ЗАВЕЩАНИЕ</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="screen active" id="main_section">
+            <!-- <h1>Уведомление</h1> -->
+            <img class="mainpaper1" src="./img/A4 - 1 (4) 2.png" alt="">
+            <img class="mainpaper2"src="./img/A4 - 1 (4) 2.png" alt="">
+        </section>
+
+        <section class="screen" id="monument">
+           <!-- <h2 class="text1">ГРАНИТ</h2> -->
+            <!-- <img class="fon" src="./img/gr1.png" alt=""> -->
+
+            <div class="stoun_div  st1">
+                <img class="stoun1" src="./img/stoun1.png" alt="">
+                <p class="textstoun one">(01)</p>
+            </div>
+
+            <div class="stoun_div  st2">
+                <img class="stoun2" src="./img/stoun2.png" alt="">
+                <p class="textstoun two">(02)</p>
+            </div>
+
+            <div class="stoun_div  st3">
+                <img class="stoun3" src="./img/stoun3.png" alt="">
+                <p class="textstoun three">(03)</p>
+            </div>
+
+            <div class="stoun_div  st4">
+                <img class="stoun4" src="./img/stoun4.png" alt="">
+                <p class="textstoun four">(04)</p>
+            </div>
+
+            <div class="stoun_div  st5">
+                <img class="stoun5" src="./img/stoun5.png" alt="">
+                <p class="textstoun five">(05)</p>
+            </div>
+
+            <div class="stoun_div  st6">
+                <img class="stoun6" src="./img/stoun6.png" alt="">
+                <p class="textstoun six">(06)</p>
+            </div>
+            
+            <div class="stoun_div  st7">
+                <img class="stoun7" src="./img/stoun7.png" alt="">
+                <p class="textstoun seven">(07)</p>
+            </div>
+
+            <div class="div1"> 
+                <button class="button div1_btn">ВЫБИРАЮ</button>
+            </div>
+
+            <div class="modalMonument">
+                <div class="modalHeader">
+                    <h2>ИНФОРМАЦИЯ</h2>
+                </div>
+                <div class="modalBody">
+                    <p>МЫ ИЗГОТОВИМ ПАМЯТНИК К ДАТЕ ВАШЕЙ СМЕРТИ
+                        03.03.2028 МОЖЕТЕ НЕ ПЕРЕЖИВАТЬ О СОХРАННОСТИ И ЕГО ДОСТАВКЕ, 
+                        МЫ ОБЕЩАЕМ ПРЕДОСТАВИТЬ ВСЕ НЕОБХОДИМЫЕ УСЛОВИЯ! ТАКЖЕ УТОЧНЯЕМ, 
+                        ЧТО ФОРМА ПАМЯТНИКА НА КЛАДБИЩАХ НАВЬ ТИПОВАЯ!</p>
+                        <button class="button">ОТЛИЧНО</button>
+                </div>
+            </div>
+
+            
+        </section>
+        
+        <section class="screen" id="flowers">
+           <!-- <h2>Цветы</h2>  -->
+             <!-- <img src="./img/flower.png" alt=""> -->
+            <div class="flowers_container">
+                <img class="setka" src="./img/setka.png" alt="">
+                <img class="fl1 flower" src="./img/fl1.png" alt="">
+                <img class="fl2 flower" src="./img/fl2.png" alt="">
+                <img class="fl3 flower" src="./img/fl3.png" alt="">
+                <img class="fl4 flower" src="./img/fl4.png" alt="">
+                <img class="fl5 flower" src="./img/fl5.png" alt="">
+                <img class="fl6 flower" src="./img/fl6.png" alt="">
+                <img class="fl7 flower" src="./img/fl7.png" alt="">
+                <img class="fl8 flower" src="./img/fl8.png" alt="">
+            </div>
+            <div class="modal flower_modal">
+                <span class="close_btn" id="closeModal">&times;</span>
+                <p class="modal_title"></p>
+                <p class="modal_text"></p>
+            </div>
+        </section>
+<!-- 
+        <section class="screen" id="coffin">
+            <h2>Гроб</h2>
+
+        </section> -->
+
+        <section class="screen" id="testament">
+            <div class="modalTestament">
+                <div class="modalHeader">
+                    <h2>ИНФОРМАЦИЯ</h2>
+                </div>
+                <div class="modalBody">
+                    <p>МЫ ИЗГОТОВИМ ПАМЯТНИК К ДАТЕ ВАШЕЙ СМЕРТИ
+                        03.03.2028 МОЖЕТЕ НЕ ПЕРЕЖИВАТЬ О СОХРАННОСТИ И ЕГО ДОСТАВКЕ, 
+                        МЫ ОБЕЩАЕМ ПРЕДОСТАВИТЬ ВСЕ НЕОБХОДИМЫЕ УСЛОВИЯ! ТАКЖЕ УТОЧНЯЕМ, 
+                        ЧТО ФОРМА ПАМЯТНИКА НА КЛАДБИЩАХ НАВЬ ТИПОВАЯ!</p>
+                        <button class="button">ПИШЕМ</button>
+                </div>
+            </div>
+
+            <img class="paperTestament" src="./img/A4 - 2 (7) 1.png" alt="">
+            <div  id="willText"></div>
+        </section>
+    </main>
+
+</body>
+</html>

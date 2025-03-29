@@ -1,0 +1,444 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #E6E6E6;
+    color: rgb(26, 26, 26);
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    height: 8vh; ;
+    padding: 9px 0px;
+    z-index: 10;
+    position: relative;
+    display: none;
+    /* border: none; */
+}
+nav{
+    display: flex;
+    justify-content: start;
+}
+
+
+.nav-btn{
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1.5vw;
+    color: black;
+    width: 20vw;
+    height: 7vh;
+    background: #B8B8B8;
+    border: none;
+    border-radius: 30px 30px 0 0;
+}
+
+.nav-btn.active{
+    background: #E6E6E6;
+}
+
+.screen{
+    display: none;
+    /* display: block; */
+    width: 100vw;
+    height: 100vh;
+    padding-top:60px;
+}
+
+.screen.active{
+    display: block;
+}
+main{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+#monument{
+    background-image: url(./img/gr1.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+
+}
+
+#flowers{
+    background-image: url(./img/flower.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+}
+
+#coffin{
+    background-image: url(./img/grob.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+}
+
+#testament{
+    background-image: url(./img/zaveshahie.png);
+    background-repeat: no-repeat;
+    background-position: 0 100px;
+}
+
+.st1{
+    margin-left: -2vw;
+    width: 35vw;
+    height: 40vh;
+
+}
+
+ .stoun1{
+    margin-left: 3vw;
+    margin-right: auto;
+    display: block;
+}
+
+
+.stoun2{
+    margin-left: 1vw;
+    margin-right: auto;
+    display: block;
+}
+
+.st2{
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: -37vh;
+    width: 35vw;
+    height: 40vh;
+
+}
+
+.stoun3{
+    margin-left: 1vw;
+    margin-right: auto;
+    display: block;
+}
+
+
+.st3{
+    position: absolute;
+    margin-left: 62vw;
+    margin-top: -32vh;
+    width: 35vw;
+    height: 40vh;
+
+}
+
+.st4{
+    position: absolute;
+    margin-left: -9vw;
+    margin-top: 2vh;
+    width: 39vw;
+    height: 40vh;
+
+}
+
+.stoun5{
+    margin-left: 4vw;
+    margin-right: auto;
+    display: block;
+}
+
+.st5{
+    position: absolute;
+    margin-left: 19vw;
+    margin-top: 2vh;
+    width: 35vw;
+    height: 40vh;
+
+}
+
+.st6{
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: -2vh;
+    width: 35vw;
+    height: 40vh;
+
+}
+
+.st7{
+    position: absolute;
+    margin-left: 75vw;
+    margin-top: -2vh;
+    width: 30vw;
+    height: 40vh;
+
+}
+
+.textstoun{
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+} 
+
+
+.one{
+    margin-top: -13vh;
+    margin-left: 23vw;
+}
+
+.two{
+    margin-top: -12vh;
+    margin-left: 23vw;
+}
+
+.three{
+    margin-top: -5vh;
+    margin-left: 22vw;
+}
+
+.four{
+    margin-top: -7vh;
+    margin-left: 25vw;
+}
+
+.five{
+    margin-top: -12vh;
+    margin-left: 25vw;
+}
+
+
+.six{
+    margin-top: -13.5vh;
+    margin-left: 20vw;
+}
+
+
+.seven{
+    margin-top: -9vh;
+    margin-left: 22vw;
+} 
+
+.div1{
+    position: absolute;
+    margin-top: 47vh;
+    width: 100vw;
+    height: 7vh;
+    background: #D9D9D9;
+}
+.div1_btn{
+    display: none;
+}
+
+.setka{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    display: block;
+}
+
+.flower{
+    position: absolute;
+    filter: grayscale(100%);
+}
+
+
+
+.fl1{
+    margin-top: -89.2vh;
+    margin-left: 2vw;
+}
+
+.fl2{
+    
+    margin-top: -100.5vh;
+    margin-left: 20vw;
+   
+}
+
+.fl3{
+    
+    margin-top: -89vh;
+    margin-left: 50vw;
+    
+}
+
+.fl4{
+    
+    margin-top: -92vh;
+    margin-left: 75vw;
+    
+}
+
+.fl5{
+    
+    margin-top: -40vh;
+    margin-left: 1vw;
+   
+}
+
+.fl6{
+    
+    margin-top: -48.2vh;
+    margin-left: 30vw;
+    
+}
+.fl7{
+   
+    margin-top: -57.4vh;
+    margin-left: 50vw;
+    
+}
+
+.fl8{
+    
+    margin-top: -49vh;
+    margin-left: 76vw;
+    
+}
+
+.flower_modal{
+    width: 50vw;
+    height: 90vh;
+    background: #E6E6E6;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    align-items: start;
+    margin-top: 8vh;
+    border: 5pt;
+    border-color: black;
+}
+
+
+/* .screen1{
+    background: #000000;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 300;
+} */
+
+
+.button{
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1.2vw;
+    color: black;
+    background: #D9D9D9;
+    width: 15vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 0.5vw;
+    z-index: 10;
+
+}
+
+.modal_title{
+    position: absolute;
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1.5vw;
+    color: black;
+    margin-top: 55vh;
+    margin-left: 5vw;
+}
+
+.modal_text{
+    position: absolute;
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1.5vw;
+    color: black;
+    margin-top: 65vh;
+    margin-left: 5vw;
+}
+
+
+
+
+.modalMonument{
+    display: none;
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    background-color: #E6E6E6;
+    border:2px solid rgb(0, 0, 0);
+    margin-left: 30vw;
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.modalTestament{
+    display: none;
+    position: absolute;
+    width: 40vw;
+    height: 30vh;
+    background-color: #E6E6E6;
+    border:2px solid rgb(0, 0, 0);
+    margin-left: 1vw;
+    margin-bottom: 30vh;
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1vw;
+    color: black;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+    
+}
+
+.mainpaper1{
+    position: absolute;
+    left: 200px;
+    transform: rotate(-20deg);
+    width: 40vw;
+    z-index: 10;
+    transition: all 0.8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.mainpaper2{
+    position: absolute;
+    right: 200px;
+    transform: rotate(20deg);
+    width: 40vw;
+    transition: all 0.8s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.modalBody{
+    margin-top: 1vh;
+}
+
+.paperTestament{
+    width: 50vw;
+
+}
+
+#willText{
+    position: absolute;
+    top: 75vh;
+    width: 36vw;
+    height: 20vh;
+  
+    font-family:"MazzardM";
+    font-style: italic;
+    font-size: 1.5vw;
+
+
+}
+
+#testament{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
